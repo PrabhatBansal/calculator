@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+  </head>
+  <body>
+    <div class="container" style="text-align: center; margin-top: 23p">
+      <h1>Calculator</h1>
+
+      <div
+        class="calculator"
+        style="
+          display: inline-block;
+          border: 2px;
+          background: red;
+          padding: 23px;
+          border-radius: 23px;
+        "
+      >
+        <input
+          type="text"
+          id="screen"
+          name="1"
+          dir="auto"
+          style="
+            font-size: 30px;
+            width: auto;
+            border: 2px solid darkgreen;
+            border-radius: 20px;
+          "
+        />
+
+        <table style="margin: auto">
+          <tr>
+            <td>
+              <button
+                id="but"
+                style="
+                  font-size: 40px;
+                  background: orchid;
+                  width: 90px;
+                  height: 50px;
+                  border-radius: 10px;
+                "
+              >
+                C
+              </button>
+            </td>
+            <td>
+              <button
+                style="
+                  font-size: 40px;
+                  background: orchid;
+                  width: 90px;
+                  height: 50px;
+                  border-radius: 10px;
+                "
+              >
+                (
+              </button>
+            </td>
+            <td>
+              <button
+                style="
+                  font-size: 40px;
+                  background: orchid;
+                  width: 90px;
+                  height: 50px;
+                  border-radius: 10px;
+                "
+              >
+                )
+              </button>
+            </td>
+            <td>
+              <button
+                style="
+                  font-size: 40px;
+                  background: orchid;
+                  width: 90px;
+                  height: 50px;
+                  border-radius: 10px;
+                "
+              >
+                %
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <button
+                style="
+                  font-size: 40px;
+                  background: orchid;
+                  width: 90px;
+                  height: 50px;
+                  border-radius: 10px;
+                "
+              >
+                7
+              </button>
+            </td>
+            <td>
+              <button
+                style="
+                  font-size: 40px;
+                  background: orchid;
+                  width: 90px;
+                  height: 50px;
+                  border-radius: 10px;
+                "
+              >
+                8
+              </button>
+            </td>
+            <td>
+              <button
+                style="
+                  font-size: 40px;
+                  background: orchid;
+                  width: 90px;
+                  height: 50px;
+                  border-radius: 10px;
+                "
+              >
+                9
+              </button>
+            </td>
+            <td>
+              <button
+                style="
+                  font-size: 40px;
+                  background: orchid;
+                  width: 90px;
+                  height: 50px;
+                  border-radius: 10px;
+                "
+              >
+                +
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <button
+                style="
+                  font-size: 40px;
+                  background: orchid;
+                  width: 90px;
+                  height: 50px;
+                  border-radius: 10px;
+                "
+              >
+                4
+              </button>
+            </td>
+            <td>
+              <button
+                style="
+                  font-size: 40px;
+                  background: orchid;
+                  width: 90px;
+                  height: 50px;
+                  border-radius: 10px;
+                "
+              >
+                5
+              </button>
+            </td>
+            <td>
+              <button
+                style="
+                  font-size: 40px;
+                  background: orchid;
+                  width: 90px;
+                  height: 50px;
+                  border-radius: 10px;
+                "
+              >
+                6
+              </button>
+            </td>
+            <td>
+              <button
+                style="
+                  font-size: 40px;
+                  background: orchid;
+                  width: 90px;
+                  height: 50px;
+                  border-radius: 10px;
+                "
+              >
+                X
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <button
+                style="
+                  font-size: 40px;
+                  background: orchid;
+                  width: 90px;
+                  height: 50px;
+                  border-radius: 10px;
+                "
+              >
+                1
+              </button>
+            </td>
+            <td>
+              <button
+                style="
+                  font-size: 40px;
+                  background: orchid;
+                  width: 90px;
+                  height: 50px;
+                  border-radius: 10px;
+                "
+              >
+                2
+              </button>
+            </td>
+            <td>
+              <button
+                style="
+                  font-size: 40px;
+                  background: orchid;
+                  width: 90px;
+                  height: 50px;
+                  border-radius: 10px;
+                "
+              >
+                3
+              </button>
+            </td>
+            <td>
+              <button
+                style="
+                  font-size: 40px;
+                  background: orchid;
+                  width: 90px;
+                  height: 50px;
+                  border-radius: 10px;
+                "
+              >
+                -
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <button
+                style="
+                  font-size: 40px;
+                  background: orchid;
+                  width: 90px;
+                  height: 50px;
+                  border-radius: 10px;
+                "
+              >
+                0
+              </button>
+            </td>
+            <td>
+              <button
+                style="
+                  font-size: 40px;
+                  background: orchid;
+                  width: 90px;
+                  height: 50px;
+                  border-radius: 10px;
+                "
+              >
+                .
+              </button>
+            </td>
+            <td>
+              <button
+                style="
+                  font-size: 40px;
+                  background: orchid;
+                  width: 90px;
+                  height: 50px;
+                  border-radius: 10px;
+                "
+              >
+                /
+              </button>
+            </td>
+            <td>
+              <button
+                style="
+                  font-size: 40px;
+                  background: orchid;
+                  width: 90px;
+                  height: 50px;
+                  border-radius: 10px;
+                "
+              >
+                =
+              </button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+        let screen = document.getElementById("screen");
+    let screenValue = " ";
+    let button = document.querySelectorAll("button");
+    for (item of button) {
+        item.addEventListener("click", (e) =>
+        {
+            buttonText = e.target.innerText;
+            console.log(buttonText);
+            if (buttonText == "X")
+            {
+                buttonText = "*";
+                screenValue += buttonText;
+                screen.value = screenValue;
+            }
+            else if (buttonText == "C")
+            {
+                screenValue = "";
+                screen.value = screenValue;
+            }
+            else if (buttonText == "=")
+            {
+                screen.value = eval(screenValue);
+                screenValue = eval(screenValue);
+            }
+
+            else
+            {
+                screenValue += buttonText;
+                screen.value = screenValue;
+            }
+        }
+        )
+    }
+  </script>
+</html>
